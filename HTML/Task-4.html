@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .card {
+            color: white;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+            width: 434px;
+            height: 346px;
+            font-style: italic;
+            padding: 10px;
+            margin: 10px;
+            transition: 300ms;
+        }
+
+        .card:hover {
+            background-color: #fff;
+            color: black;
+            cursor: pointer;
+            transform: rotate(7deg);
+            transition: 0.67s cubic-bezier(0.755, 0.05, 0.855, 0.9);
+        }
+
+        .card-img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .container {
+            display: flex;
+            float: left;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="/Images/Image7.jpg" class="card-img" alt="">
+            <h3>Hot Pasta With Red Souce</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="/Images/Image8.jpg" class="card-img" alt="">
+            <h3>Veg Burger</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="/Images/Image9.jpg" class="card-img" alt="">
+            <h3>Mushroom Pizza</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="/Images/Image10.jpg" class="card-img" alt="">
+            <h3>Grilled Sandwich</h3>
+        </div>
+    </div>
+</body>
+
+</html>
